@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trooper Music - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-bg">
+
+    <nav class="navbar">
+        <div class="logo">Trooper Music</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="artist.html">Artist</a></li>
+            <li><a href="albums.html">Albums</a></li>
+            <li><a href="tracks.html">Tracks</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1 class="page-title">Get in Touch</h1>
+        
+        <div class="contact-grid">
+            <section class="card contact-form-section">
+                <h3>Send a Message</h3>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="Enter your name..." required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" placeholder="email@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="How can I help with your next production?"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div id="successMessage" style="display:none; color: #a855f7; margin-top: 20px; font-weight: bold;">
+                    Message sent successfully!
+                </div>
+            </section>
+
+            <section class="contact-info">
+                <div class="info-box card">
+                    <h3>Booking & Inquiries</h3>
+                    <p>Interested in a collaboration or custom beat? Reach out via the form or follow me on my platforms.</p>
+                </div>
+
+                <div class="social-vertical">
+                    <a href="https://open.spotify.com/artist/7iq1P2kukdz6CxRIKkBFKG?si=eYWoX3CzT8GJf-1oMYlK7w" target="_blank" class="social-btn spotify">
+                        <i class="fab fa-spotify"></i> Listen on Spotify
+                    </a>
+                    <a href="https://www.instagram.com/piniel_nathan1/" target="_blank" class="social-btn instagram">
+                        <i class="fab fa-instagram"></i> Follow on Instagram
+                    </a>
+                    <a href="https://youtube.com/channel/UCgWQGfkbU9zvCHQ1M-9wZpw?si=XIlpSbyhhvqGmH9b" target="_blank" class="social-btn youtube">
+                        <i class="fab fa-youtube"></i> Watch on YouTube
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer style="margin-top: 80px; padding: 40px; border-top: 1px solid #1a1a1a; text-align: center;">
+        <p style="color: #444; font-size: 0.8rem;">&copy; 2026 Trooper Music. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

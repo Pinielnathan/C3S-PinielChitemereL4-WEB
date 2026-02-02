@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piniel Nathan - Tracks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Trooper Music</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="artist.html">Artist</a></li>
+            <li><a href="albums.html">Albums</a></li>
+            <li><a href="tracks.html" class="active">Tracks</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>Tracks</h1>
+
+        <div class="search-bar">
+            <input type="text" id="track-search" placeholder="Search by song title..." onkeyup="filterTracks()">
+            <button onclick="filterTracks()">Search</button>
+        </div>
+
+        <div id="track-list"></div>
+
+        <hr style="border: 0; border-top: 1px solid #333; margin: 40px 0;">
+
+
+    </main>
+    <footer style="margin-top: 80px; padding: 40px; border-top: 1px solid #1a1a1a; text-align: center;">
+        <p style="color: #444; font-size: 0.8rem;">&copy; 2026 Trooper Music. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
